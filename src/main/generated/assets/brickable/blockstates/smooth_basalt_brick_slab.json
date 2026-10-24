@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "brickable:block/smooth_basalt_brick_slab"
+    },
+    "type=double": {
+      "model": "brickable:block/smooth_basalt_bricks"
+    },
+    "type=top": {
+      "model": "brickable:block/smooth_basalt_brick_slab_top"
+    }
+  }
+}

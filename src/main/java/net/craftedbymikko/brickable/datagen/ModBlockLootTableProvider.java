@@ -21,11 +21,14 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.CALCITE_BRICK_WALL);
         dropSelf(ModBlocks.SNOW_BRICK_STAIRS);
         dropSelf(ModBlocks.SNOW_BRICK_WALL);
+        dropSelf(ModBlocks.SMOOTH_BASALT_BRICK_STAIRS);
+        dropSelf(ModBlocks.SMOOTH_BASALT_BRICK_WALL);
 
 
 
         add(ModBlocks.CALCITE_BRICK_SLAB,createSlabItemTable(ModBlocks.CALCITE_BRICK_SLAB));
         add(ModBlocks.SNOW_BRICK_SLAB,createSlabItemTable(ModBlocks.CALCITE_BRICK_SLAB));
+        add(ModBlocks.SMOOTH_BASALT_BRICK_SLAB,createSlabItemTable(ModBlocks.SMOOTH_BASALT_BRICK_SLAB));
 
 
     }

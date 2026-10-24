@@ -7,8 +7,13 @@
   "block.brickable.snow_brick_stairs": "Snow Brick Stairs",
   "block.brickable.snow_brick_slab": "Snow Brick Slab",
   "block.brickable.snow_brick_wall": "Snow Brick Wall",
+  "block.brickable.smooth_basalt_bricks": "Smooth Basalt Bricks",
+  "block.brickable.smooth_basalt_brick_stairs": "Smooth Basalt Brick Stairs",
+  "block.brickable.smooth_basalt_brick_slab": "Smooth Basalt Brick Slab",
+  "block.brickable.smooth_basalt_brick_wall": "Smooth Basalt Brick Wall",
 
   "item.brickable.the_magic_brick_wand" : "The Magic Brick Wand",
-  "Creativemodetab.Brickable.Bricks_Tab": "Brickable Bricks"
+  "Creativemodetab.Brickable.Bricks_Tab": "Brickable Bricks",
+  "tooltip.brickable.snow_bricks": "The first textured block added to Brickables"
 
 }

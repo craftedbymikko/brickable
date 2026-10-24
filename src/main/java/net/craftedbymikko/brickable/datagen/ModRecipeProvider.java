@@ -66,6 +66,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+                shaped(RecipeCategory.MISC, ModBlocks.SMOOTH_BASALT_BRICKS)
+                        .pattern("CC")
+                        .pattern("CC")
+                        .define('C', Blocks.SMOOTH_BASALT)
+                        .unlockedBy(getHasName(Blocks.SMOOTH_BASALT), has(Blocks.SMOOTH_BASALT))
+                        .save(output);
+
+                stairBuilder(ModBlocks.SMOOTH_BASALT_BRICK_STAIRS, Ingredient.of(ModBlocks.SMOOTH_BASALT_BRICKS))
+                        .unlockedBy(getHasName(ModBlocks.SNOW_BRICKS), has(ModBlocks.SMOOTH_BASALT_BRICKS))
+                        .save(output);
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BASALT_BRICK_SLAB, ModBlocks.SMOOTH_BASALT_BRICKS);
+
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BASALT_BRICK_WALL, ModBlocks.SMOOTH_BASALT_BRICKS);
+
+
+
 
                 }
             };

@@ -44,7 +44,9 @@ public class Magic_Brick_Wand extends Item{
             Map.entry(Blocks.CALCITE, ModBlocks.CALCITE_BRICKS),
             Map.entry(ModBlocks.CALCITE_BRICKS, Blocks.CALCITE),
             Map.entry(Blocks.SNOW_BLOCK, ModBlocks.SNOW_BRICKS),
-            Map.entry(ModBlocks.SNOW_BRICKS, Blocks.SNOW_BLOCK)
+            Map.entry(ModBlocks.SNOW_BRICKS, Blocks.SNOW_BLOCK),
+            Map.entry(Blocks.SMOOTH_BASALT, ModBlocks.SMOOTH_BASALT_BRICKS),
+            Map.entry(ModBlocks.SMOOTH_BASALT_BRICKS, Blocks.SMOOTH_BASALT)
 
     );
 

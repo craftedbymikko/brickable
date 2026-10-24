@@ -29,6 +29,12 @@ output.accept(ModBlocks.SNOW_BRICK_STAIRS);
 output.accept(ModBlocks.SNOW_BRICK_SLAB);
 output.accept(ModBlocks.SNOW_BRICK_WALL);
 
+
+output.accept(ModBlocks.SMOOTH_BASALT_BRICKS);
+output.accept(ModBlocks.SMOOTH_BASALT_BRICK_STAIRS);
+output.accept(ModBlocks.SMOOTH_BASALT_BRICK_SLAB);
+output.accept(ModBlocks.SMOOTH_BASALT_BRICK_WALL);
+
                 })
                 .build());
 
