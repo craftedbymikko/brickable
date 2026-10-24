@@ -1,0 +1,9 @@
+// 26.3	-999999999-01-01T00:00:00	Brickable/Block Loot Tables
+fc6c0b3b2a56471a0ee026bce573b77e4e28358c data/brickable/loot_table/blocks/calcite_brick_slab.json
+f3a7a2230abf221072099a19c9863310c5a20e3f data/brickable/loot_table/blocks/calcite_brick_stair.json
+fc1105fd4191c45c2b3e75ba46a7caef9ff09443 data/brickable/loot_table/blocks/calcite_brick_wall.json
+adf9f359c3b76f5896bf2b2e351eb4bd4eb0da5d data/brickable/loot_table/blocks/calcite_bricks.json
+fc6c0b3b2a56471a0ee026bce573b77e4e28358c data/brickable/loot_table/blocks/snow_brick_slab.json
+e0845d4793894eb46114a8272981d0f73c71c26e data/brickable/loot_table/blocks/snow_brick_stair.json
+f88be7032a16a49e88dbd4792f0e6ede481d5f24 data/brickable/loot_table/blocks/snow_brick_wall.json
+c62445cfe46d671ddc8a4d76bb29f58098e8665a data/brickable/loot_table/blocks/snow_bricks.json

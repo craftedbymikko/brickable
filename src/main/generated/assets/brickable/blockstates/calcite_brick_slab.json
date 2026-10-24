@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "brickable:block/calcite_brick_slab"
+    },
+    "type=double": {
+      "model": "brickable:block/calcite_bricks"
+    },
+    "type=top": {
+      "model": "brickable:block/calcite_brick_slab_top"
+    }
+  }
+}

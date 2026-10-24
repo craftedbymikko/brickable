@@ -17,18 +17,23 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
-        //blockModelGenerators.createTrivialCube(ModBlocks.CALCITE_BRICKS);
+        //blockModelGenerators.createTrivialCube(ModBlocks.CALCITE_BRICKS);\
 
         blockModelGenerators.family(ModBlocks.CALCITE_BRICKS)
-                .stairs(ModBlocks.CALCITE_BRICKS_STAIRS)
-                .slab(ModBlocks.CALCITE_BRICKS_SLAB)
-                .wall(ModBlocks.CALCITE_BRICKS_WALL);
+                .stairs(ModBlocks.CALCITE_BRICK_STAIRS)
+                .slab(ModBlocks.CALCITE_BRICK_SLAB)
+                .wall(ModBlocks.CALCITE_BRICK_WALL);
+
+        blockModelGenerators.family(ModBlocks.SNOW_BRICKS)
+                .stairs(ModBlocks.SNOW_BRICK_STAIRS)
+                .slab(ModBlocks.SNOW_BRICK_SLAB)
+                .wall(ModBlocks.SNOW_BRICK_WALL);
 
 
     }
 
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
-        itemModelGenerators.generateFlatItem(ModItems.BEDROCK_INGOT, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.MAGIC_BRICK_WAND, ModelTemplates.FLAT_HANDHELD_ITEM);
     }
 }

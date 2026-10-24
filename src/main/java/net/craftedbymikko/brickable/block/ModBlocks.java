@@ -14,26 +14,46 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
 
 public class ModBlocks {
-    public static final Block CALCITE_BRICKS = registerblock("calcite_bricks",
-            properties -> new Block(properties.strength(3.75f)
-                    .requiresCorrectToolForDrops().sound(SoundType.CALCITE).explosionResistance(0.75f)));
+ public static final Block CALCITE_BRICKS = registerblock("calcite_bricks",
+            properties -> new Block(properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK).explosionResistance(10000)), Component.translatable("tooltip.testmod.compacted_block_of_bedrock"));
 
-    public static final Block CALCITE_BRICKS_STAIRS = registerblock("calcite_bricks_stair",
-            properties -> new Block(properties.strength(3.75f)
-                    .requiresCorrectToolForDrops().sound(SoundType.CALCITE).explosionResistance(0.75f)));
+    public static final Block CALCITE_BRICK_STAIRS = registerblock("calcite_brick_stair",
+            properties -> new StairBlock(ModBlocks.CALCITE_BRICKS.defaultBlockState(),
+                    (properties.strength(3f)
+                            .requiresCorrectToolForDrops().sound(SoundType.STONE).explosionResistance(10000))));
 
-    public static final Block CALCITE_BRICKS_SLAB = registerblock("calcite_bricks_slab",
-            properties -> new Block(properties.strength(3.75f)
-                    .requiresCorrectToolForDrops().sound(SoundType.CALCITE).explosionResistance(0.75f)));
+    public static final Block CALCITE_BRICK_SLAB = registerblock("calcite_brick_slab",
+            properties -> new SlabBlock(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE).explosionResistance(10000)));
 
-    public static final Block CALCITE_BRICKS_WALL = registerblock("calcite_bricks_wall",
-            properties -> new Block(properties.strength(3.75f)
-                    .requiresCorrectToolForDrops().sound(SoundType.CALCITE).explosionResistance(0.75f)));
+    public static final Block CALCITE_BRICK_WALL = registerblock("calcite_brick_wall",
+            properties -> new WallBlock(properties.strength(1F).requiresCorrectToolForDrops()));
+
+ public static final Block SNOW_BRICKS = registerblock("snow_bricks",
+            properties -> new Block(properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK).explosionResistance(10000)), Component.translatable("tooltip.testmod.compacted_block_of_bedrock"));
+
+    public static final Block SNOW_BRICK_STAIRS = registerblock("snow_brick_stair",
+            properties -> new StairBlock(ModBlocks.CALCITE_BRICKS.defaultBlockState(),
+                    (properties.strength(3f)
+                            .requiresCorrectToolForDrops().sound(SoundType.STONE).explosionResistance(10000))));
+
+    public static final Block SNOW_BRICK_SLAB = registerblock("snow_brick_slab",
+            properties -> new SlabBlock(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE).explosionResistance(10000)));
+
+    public static final Block SNOW_BRICK_WALL = registerblock("snow_brick_wall",
+            properties -> new WallBlock(properties.strength(1F).requiresCorrectToolForDrops()));
 
 
 

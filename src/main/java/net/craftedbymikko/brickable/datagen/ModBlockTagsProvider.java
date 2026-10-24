@@ -17,17 +17,26 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
     protected void addTags(HolderLookup.Provider registries) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.getRK(ModBlocks.CALCITE_BRICKS))
-                .add(ModBlocks.getRK(ModBlocks.CALCITE_BRICKS_WALL))
-                .add(ModBlocks.getRK(ModBlocks.CALCITE_BRICKS_STAIRS))
-                .add(ModBlocks.getRK(ModBlocks.CALCITE_BRICKS_SLAB));
+                .add(ModBlocks.getRK(ModBlocks.CALCITE_BRICK_STAIRS))
+                .add(ModBlocks.getRK(ModBlocks.CALCITE_BRICK_SLAB))
+                .add(ModBlocks.getRK(ModBlocks.CALCITE_BRICK_WALL))
+                .add(ModBlocks.getRK(ModBlocks.SNOW_BRICKS))
+                .add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_STAIRS))
+                .add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_SLAB))
+                .add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_WALL));
 
 
 
+        tag(BlockTags.NEEDS_DIAMOND_TOOL);
+                //.add(ModBlocks.getRK(ModBlocks.BEDROCK_ORE));
 
 
+        tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.CALCITE_BRICK_STAIRS));
+        tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.CALCITE_BRICK_SLAB));
+        tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.CALCITE_BRICK_WALL));
+        tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_STAIRS));
+        tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_SLAB));
+        tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.CALCITE_BRICK_WALL));
 
-        tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.CALCITE_BRICKS_STAIRS));
-        tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.CALCITE_BRICKS_SLAB));
-        tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.CALCITE_BRICKS_WALL));
     }
 }

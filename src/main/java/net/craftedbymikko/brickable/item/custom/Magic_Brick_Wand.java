@@ -16,9 +16,9 @@ import net.minecraft.world.level.block.Blocks;
 import java.util.Map;
 import java.util.function.Consumer;
 
-public class The_Magic_Brick_Wand extends Item {
+public class Magic_Brick_Wand extends Item{
 
-    private static final Map<Block, Block> THE_MAGIC_BRICK_WAND_MAP = Map.ofEntries(
+    private static final Map<Block, Block> MAGIC_BRICK_WAND_MAP = Map.ofEntries(
             Map.entry(Blocks.STONE, Blocks.STONE_BRICKS),
             Map.entry(Blocks.STONE_BRICKS, Blocks.STONE),
             Map.entry(Blocks.END_STONE, Blocks.END_STONE_BRICKS),
@@ -42,13 +42,16 @@ public class The_Magic_Brick_Wand extends Item {
             Map.entry(Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BRICKS),
             Map.entry(Blocks.QUARTZ_BRICKS, Blocks.QUARTZ_BLOCK),
             Map.entry(Blocks.CALCITE, ModBlocks.CALCITE_BRICKS),
-            Map.entry(ModBlocks.CALCITE_BRICKS, Blocks.CALCITE)
+            Map.entry(ModBlocks.CALCITE_BRICKS, Blocks.CALCITE),
+            Map.entry(Blocks.SNOW_BLOCK, ModBlocks.SNOW_BRICKS),
+            Map.entry(ModBlocks.SNOW_BRICKS, Blocks.SNOW_BLOCK)
+
     );
 
 
 
 
-    public The_Magic_Brick_Wand(Properties properties) {
+    public Magic_Brick_Wand(Item.Properties properties) {
         super(properties);
     }
 
@@ -61,9 +64,9 @@ public class The_Magic_Brick_Wand extends Item {
         Level level = context.getLevel();
         Block clickedblock = level.getBlockState(context.getClickedPos()).getBlock();
 
-        if (THE_MAGIC_BRICK_WAND_MAP.containsKey(clickedblock) && !level.isClientSide()) {
+        if (MAGIC_BRICK_WAND_MAP.containsKey(clickedblock) && !level.isClientSide()) {
             //we are on the server!
-            level.setBlockAndUpdate(context.getClickedPos(), THE_MAGIC_BRICK_WAND_MAP.get(clickedblock).defaultBlockState());
+            level.setBlockAndUpdate(context.getClickedPos(), MAGIC_BRICK_WAND_MAP.get(clickedblock).defaultBlockState());
 
             context.getItemInHand().hurtAndBreak( 1, context.getPlayer(), context.getHand());
 
@@ -74,7 +77,7 @@ public class The_Magic_Brick_Wand extends Item {
     }
 
     @Override
-    public void appendHoverText(ItemStack itemStack, TooltipContext context, TooltipDisplay display, Consumer<Component> builder, TooltipFlag tooltipFlag){
+    public void appendHoverText(ItemStack itemStack, Item.TooltipContext context, TooltipDisplay display, Consumer<Component> builder, TooltipFlag tooltipFlag){
         if (Minecraft.getInstance().hasShiftDown()) {
             builder.accept(Component.translatable("tooltip.testmod.bedrock_wand.shift_down"));
 

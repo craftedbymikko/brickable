@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "brickable:item/magic_brick_wand"
+  }
+}
