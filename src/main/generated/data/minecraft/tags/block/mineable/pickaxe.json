@@ -3,6 +3,10 @@
     "brickable:calcite_bricks",
     "brickable:calcite_brick_stair",
     "brickable:calcite_brick_slab",
-    "brickable:calcite_brick_wall"
+    "brickable:calcite_brick_wall",
+    "brickable:snow_bricks",
+    "brickable:snow_brick_stair",
+    "brickable:snow_brick_slab",
+    "brickable:snow_brick_wall"
   ]
 }
