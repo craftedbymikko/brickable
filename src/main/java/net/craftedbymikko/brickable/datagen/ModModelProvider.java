@@ -29,6 +29,26 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.SNOW_BRICK_SLAB)
                 .wall(ModBlocks.SNOW_BRICK_WALL);
 
+        blockModelGenerators.family(ModBlocks.SMOOTH_BASALT_BRICKS)
+                .stairs(ModBlocks.SMOOTH_BASALT_BRICK_STAIRS)
+                .slab(ModBlocks.SMOOTH_BASALT_BRICK_SLAB)
+                .wall(ModBlocks.SMOOTH_BASALT_BRICK_WALL);
+
+        blockModelGenerators.family(ModBlocks.AMETHYST_BRICKS)
+                .stairs(ModBlocks.AMETHYST_BRICK_STAIRS)
+                .slab(ModBlocks.AMETHYST_BRICK_SLAB)
+                .wall(ModBlocks.AMETHYST_BRICK_WALL);
+
+        blockModelGenerators.family(ModBlocks.ANDESITE_BRICKS)
+                .stairs(ModBlocks.ANDESITE_BRICK_STAIRS)
+                .slab(ModBlocks.ANDESITE_BRICK_SLAB)
+                .wall(ModBlocks.ANDESITE_BRICK_WALL);
+
+        blockModelGenerators.family(ModBlocks.GRANITE_BRICKS)
+                .stairs(ModBlocks.GRANITE_BRICK_STAIRS)
+                .slab(ModBlocks.GRANITE_BRICK_SLAB)
+                .wall(ModBlocks.GRANITE_BRICK_WALL);
+
 
     }
 

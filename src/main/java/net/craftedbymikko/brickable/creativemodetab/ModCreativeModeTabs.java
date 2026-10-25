@@ -35,6 +35,22 @@ output.accept(ModBlocks.SMOOTH_BASALT_BRICK_STAIRS);
 output.accept(ModBlocks.SMOOTH_BASALT_BRICK_SLAB);
 output.accept(ModBlocks.SMOOTH_BASALT_BRICK_WALL);
 
+
+output.accept(ModBlocks.AMETHYST_BRICKS);
+output.accept(ModBlocks.AMETHYST_BRICK_STAIRS);
+output.accept(ModBlocks.AMETHYST_BRICK_SLAB);
+output.accept(ModBlocks.AMETHYST_BRICK_WALL);
+
+output.accept(ModBlocks.ANDESITE_BRICKS);
+output.accept(ModBlocks.ANDESITE_BRICK_STAIRS);
+output.accept(ModBlocks.ANDESITE_BRICK_SLAB);
+output.accept(ModBlocks.ANDESITE_BRICK_WALL);
+
+output.accept(ModBlocks.GRANITE_BRICKS);
+output.accept(ModBlocks.GRANITE_BRICK_STAIRS);
+output.accept(ModBlocks.GRANITE_BRICK_SLAB);
+output.accept(ModBlocks.GRANITE_BRICK_WALL);
+
                 })
                 .build());
 

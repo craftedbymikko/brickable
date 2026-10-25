@@ -1,6 +1,10 @@
 {
   "values": [
-    "brickable:calcite_brick_stair",
-    "brickable:snow_brick_stair"
+    "brickable:calcite_brick_stairs",
+    "brickable:snow_brick_stairs",
+    "brickable:smooth_basalt_brick_stairs",
+    "brickable:amethyst_brick_stairs",
+    "brickable:andesite_brick_stairs",
+    "brickable:granite_brick_stairs"
   ]
 }

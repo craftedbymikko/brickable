@@ -74,13 +74,61 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
 
                 stairBuilder(ModBlocks.SMOOTH_BASALT_BRICK_STAIRS, Ingredient.of(ModBlocks.SMOOTH_BASALT_BRICKS))
-                        .unlockedBy(getHasName(ModBlocks.SNOW_BRICKS), has(ModBlocks.SMOOTH_BASALT_BRICKS))
+                        .unlockedBy(getHasName(ModBlocks.SMOOTH_BASALT_BRICKS), has(ModBlocks.SMOOTH_BASALT_BRICKS))
                         .save(output);
 
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BASALT_BRICK_SLAB, ModBlocks.SMOOTH_BASALT_BRICKS);
 
 
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BASALT_BRICK_WALL, ModBlocks.SMOOTH_BASALT_BRICKS);
+
+                shaped(RecipeCategory.MISC, ModBlocks.AMETHYST_BRICKS)
+                        .pattern("CC")
+                        .pattern("CC")
+                        .define('C', Blocks.AMETHYST_BLOCK)
+                        .unlockedBy(getHasName(Blocks.AMETHYST_BLOCK), has(Blocks.AMETHYST_BLOCK))
+                        .save(output);
+
+                stairBuilder(ModBlocks.AMETHYST_BRICK_STAIRS, Ingredient.of(ModBlocks.AMETHYST_BRICKS))
+                        .unlockedBy(getHasName(ModBlocks.AMETHYST_BRICKS), has(ModBlocks.AMETHYST_BRICKS))
+                        .save(output);
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_BRICK_SLAB, ModBlocks.AMETHYST_BRICKS);
+
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_BRICK_WALL, ModBlocks.AMETHYST_BRICKS);
+
+                shaped(RecipeCategory.MISC, ModBlocks.ANDESITE_BRICKS)
+                        .pattern("CC")
+                        .pattern("CC")
+                        .define('C', Blocks.POLISHED_ANDESITE)
+                        .unlockedBy(getHasName(Blocks.POLISHED_ANDESITE), has(Blocks.POLISHED_ANDESITE))
+                        .save(output);
+
+                stairBuilder(ModBlocks.ANDESITE_BRICK_STAIRS, Ingredient.of(ModBlocks.ANDESITE_BRICKS))
+                        .unlockedBy(getHasName(ModBlocks.ANDESITE_BRICKS), has(ModBlocks.ANDESITE_BRICKS))
+                        .save(output);
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ANDESITE_BRICK_SLAB, ModBlocks.ANDESITE_BRICKS);
+
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ANDESITE_BRICK_WALL, ModBlocks.ANDESITE_BRICKS);
+
+                shaped(RecipeCategory.MISC, ModBlocks.GRANITE_BRICKS)
+                        .pattern("CC")
+                        .pattern("CC")
+                        .define('C', Blocks.POLISHED_GRANITE)
+                        .unlockedBy(getHasName(Blocks.POLISHED_GRANITE), has(Blocks.POLISHED_GRANITE))
+                        .save(output);
+
+                stairBuilder(ModBlocks.GRANITE_BRICK_STAIRS, Ingredient.of(ModBlocks.GRANITE_BRICKS))
+                        .unlockedBy(getHasName(ModBlocks.GRANITE_BRICKS), has(ModBlocks.GRANITE_BRICKS))
+                        .save(output);
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_SLAB, ModBlocks.GRANITE_BRICKS);
+
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_WALL, ModBlocks.GRANITE_BRICKS);
 
 
 

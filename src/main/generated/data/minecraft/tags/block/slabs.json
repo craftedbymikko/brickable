@@ -1,6 +1,10 @@
 {
   "values": [
     "brickable:calcite_brick_slab",
-    "brickable:snow_brick_slab"
+    "brickable:snow_brick_slab",
+    "brickable:smooth_basalt_brick_slab",
+    "brickable:amethyst_brick_slab",
+    "brickable:andesite_brick_slab",
+    "brickable:granite_brick_slab"
   ]
 }

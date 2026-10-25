@@ -23,7 +23,20 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.SNOW_BRICKS))
                 .add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_STAIRS))
                 .add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_SLAB))
-                .add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_WALL));
+                .add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_WALL))
+                .add(ModBlocks.getRK(ModBlocks.SMOOTH_BASALT_BRICKS))
+                .add(ModBlocks.getRK(ModBlocks.SMOOTH_BASALT_BRICK_STAIRS))
+                .add(ModBlocks.getRK(ModBlocks.SMOOTH_BASALT_BRICK_SLAB))
+                .add(ModBlocks.getRK(ModBlocks.SMOOTH_BASALT_BRICK_WALL))
+                .add(ModBlocks.getRK(ModBlocks.AMETHYST_BRICKS))
+                .add(ModBlocks.getRK(ModBlocks.AMETHYST_BRICK_STAIRS))
+                .add(ModBlocks.getRK(ModBlocks.AMETHYST_BRICK_SLAB))
+                .add(ModBlocks.getRK(ModBlocks.AMETHYST_BRICK_WALL))
+                .add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICKS))
+                .add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICK_STAIRS))
+                .add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICK_SLAB))
+                .add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICK_WALL));
+
 
 
 
@@ -36,7 +49,20 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.CALCITE_BRICK_WALL));
         tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_STAIRS));
         tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_SLAB));
-        tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.CALCITE_BRICK_WALL));
+        tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.SNOW_BRICK_WALL));
+        tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.SMOOTH_BASALT_BRICK_STAIRS));
+        tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.SMOOTH_BASALT_BRICK_SLAB));
+        tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.SMOOTH_BASALT_BRICK_WALL));
+        tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.AMETHYST_BRICK_STAIRS));
+        tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.AMETHYST_BRICK_SLAB));
+        tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.AMETHYST_BRICK_WALL));
+        tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICK_STAIRS));
+        tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICK_SLAB));
+        tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICK_WALL));
+        tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.GRANITE_BRICK_STAIRS));
+        tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.GRANITE_BRICK_SLAB));
+        tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.GRANITE_BRICK_WALL));
+
 
     }
 }
