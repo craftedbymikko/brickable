@@ -5,6 +5,7 @@
     "brickable:smooth_basalt_brick_wall",
     "brickable:amethyst_brick_wall",
     "brickable:andesite_brick_wall",
-    "brickable:granite_brick_wall"
+    "brickable:granite_brick_wall",
+    "brickable:diorite_brick_wall"
   ]
 }

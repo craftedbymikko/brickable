@@ -35,7 +35,11 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICKS))
                 .add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICK_STAIRS))
                 .add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICK_SLAB))
-                .add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICK_WALL));
+                .add(ModBlocks.getRK(ModBlocks.ANDESITE_BRICK_WALL))
+                .add(ModBlocks.getRK(ModBlocks.DIORITE_BRICKS))
+                .add(ModBlocks.getRK(ModBlocks.DIORITE_BRICK_STAIRS))
+                .add(ModBlocks.getRK(ModBlocks.DIORITE_BRICK_SLAB))
+                .add(ModBlocks.getRK(ModBlocks.DIORITE_BRICK_WALL));
 
 
 
@@ -62,6 +66,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.GRANITE_BRICK_STAIRS));
         tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.GRANITE_BRICK_SLAB));
         tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.GRANITE_BRICK_WALL));
+        tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.DIORITE_BRICK_STAIRS));
+        tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.DIORITE_BRICK_SLAB));
+        tag(BlockTags.WALLS).add(ModBlocks.getRK(ModBlocks.DIORITE_BRICK_WALL));
 
 
     }

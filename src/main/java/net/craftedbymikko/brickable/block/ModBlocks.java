@@ -119,6 +119,22 @@ public class ModBlocks {
     public static final Block GRANITE_BRICK_WALL = registerblock("granite_brick_wall",
             properties -> new WallBlock(properties.strength(1F).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+ public static final Block DIORITE_BRICKS = registerblock("diorite_bricks",
+            properties -> new Block(properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE).explosionResistance(10000)));
+
+    public static final Block DIORITE_BRICK_STAIRS = registerblock("diorite_brick_stairs",
+            properties -> new StairBlock(ModBlocks.ANDESITE_BRICKS.defaultBlockState(),
+                    (properties.strength(3f)
+                        .requiresCorrectToolForDrops().sound(SoundType.STONE).explosionResistance(10000))));
+
+    public static final Block DIORITE_BRICK_SLAB = registerblock("diorite_brick_slab",
+            properties -> new SlabBlock(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE).explosionResistance(10000)));
+
+    public static final Block DIORITE_BRICK_WALL = registerblock("diorite_brick_wall",
+            properties -> new WallBlock(properties.strength(1F).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
 
 
 

@@ -19,6 +19,10 @@
     "brickable:andesite_bricks",
     "brickable:andesite_brick_stairs",
     "brickable:andesite_brick_slab",
-    "brickable:andesite_brick_wall"
+    "brickable:andesite_brick_wall",
+    "brickable:diorite_bricks",
+    "brickable:diorite_brick_stairs",
+    "brickable:diorite_brick_slab",
+    "brickable:diorite_brick_wall"
   ]
 }

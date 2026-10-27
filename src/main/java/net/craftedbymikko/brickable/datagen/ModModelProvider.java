@@ -49,6 +49,11 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.GRANITE_BRICK_SLAB)
                 .wall(ModBlocks.GRANITE_BRICK_WALL);
 
+        blockModelGenerators.family(ModBlocks.DIORITE_BRICKS)
+                .stairs(ModBlocks.DIORITE_BRICK_STAIRS)
+                .slab(ModBlocks.DIORITE_BRICK_SLAB)
+                .wall(ModBlocks.DIORITE_BRICK_WALL);
+
 
     }
 

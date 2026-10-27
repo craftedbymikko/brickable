@@ -23,6 +23,10 @@
   "block.brickable.granite_brick_stairs": "Granite Brick Stairs",
   "block.brickable.granite_brick_slab": "Granite Brick Slab",
   "block.brickable.granite_brick_wall": "Granite Brick Wall",
+  "block.brickable.diorite_bricks": "Diorite Bricks",
+  "block.brickable.diorite_brick_stairs": "Diorite Brick Stairs",
+  "block.brickable.diorite_brick_slab": "Diorite Brick Slab",
+  "block.brickable.diorite_brick_wall": "Diorite Brick Wall",
 
   "item.brickable.the_magic_brick_wand" : "The Magic Brick Wand",
   "Creativemodetab.Brickable.Bricks_Tab": "Brickable Bricks",

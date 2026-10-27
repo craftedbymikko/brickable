@@ -52,7 +52,9 @@ public class Magic_Brick_Wand extends Item{
             Map.entry(Blocks.POLISHED_ANDESITE, ModBlocks.ANDESITE_BRICKS),
             Map.entry(ModBlocks.ANDESITE_BRICKS, Blocks.POLISHED_ANDESITE),
             Map.entry(Blocks.POLISHED_GRANITE, ModBlocks.GRANITE_BRICKS),
-            Map.entry(ModBlocks.GRANITE_BRICKS, Blocks.POLISHED_GRANITE)
+            Map.entry(ModBlocks.GRANITE_BRICKS, Blocks.POLISHED_GRANITE),
+            Map.entry(Blocks.POLISHED_DIORITE, ModBlocks.DIORITE_BRICKS),
+            Map.entry(ModBlocks.DIORITE_BRICKS, Blocks.POLISHED_DIORITE)
 
     );
 

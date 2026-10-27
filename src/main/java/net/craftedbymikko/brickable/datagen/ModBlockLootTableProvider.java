@@ -20,6 +20,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.AMETHYST_BRICKS);
         dropSelf(ModBlocks.ANDESITE_BRICKS);
         dropSelf(ModBlocks.GRANITE_BRICKS);
+        dropSelf(ModBlocks.DIORITE_BRICKS);
 
         dropSelf(ModBlocks.CALCITE_BRICK_STAIRS);
         dropSelf(ModBlocks.CALCITE_BRICK_WALL);
@@ -33,6 +34,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.ANDESITE_BRICK_WALL);
         dropSelf(ModBlocks.GRANITE_BRICK_STAIRS);
         dropSelf(ModBlocks.GRANITE_BRICK_WALL);
+        dropSelf(ModBlocks.DIORITE_BRICK_STAIRS);
+        dropSelf(ModBlocks.DIORITE_BRICK_WALL);
 
 
 
@@ -42,6 +45,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.AMETHYST_BRICK_SLAB,createSlabItemTable(ModBlocks.AMETHYST_BRICK_SLAB));
         add(ModBlocks.ANDESITE_BRICK_SLAB,createSlabItemTable(ModBlocks.ANDESITE_BRICK_SLAB));
         add(ModBlocks.GRANITE_BRICK_SLAB,createSlabItemTable(ModBlocks.GRANITE_BRICK_SLAB));
+        add(ModBlocks.DIORITE_BRICK_SLAB,createSlabItemTable(ModBlocks.DIORITE_BRICK_SLAB));
 
 
     }

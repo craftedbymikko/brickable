@@ -51,6 +51,11 @@ output.accept(ModBlocks.GRANITE_BRICK_STAIRS);
 output.accept(ModBlocks.GRANITE_BRICK_SLAB);
 output.accept(ModBlocks.GRANITE_BRICK_WALL);
 
+output.accept(ModBlocks.DIORITE_BRICKS);
+output.accept(ModBlocks.DIORITE_BRICK_STAIRS);
+output.accept(ModBlocks.DIORITE_BRICK_SLAB);
+output.accept(ModBlocks.DIORITE_BRICK_WALL);
+
                 })
                 .build());
 

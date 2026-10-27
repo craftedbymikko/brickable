@@ -130,6 +130,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_WALL, ModBlocks.GRANITE_BRICKS);
 
+                shaped(RecipeCategory.MISC, ModBlocks.DIORITE_BRICKS)
+                        .pattern("CC")
+                        .pattern("CC")
+                        .define('C', Blocks.POLISHED_DIORITE)
+                        .unlockedBy(getHasName(Blocks.POLISHED_DIORITE), has(Blocks.POLISHED_DIORITE))
+                        .save(output);
+
+                stairBuilder(ModBlocks.DIORITE_BRICK_STAIRS, Ingredient.of(ModBlocks.DIORITE_BRICKS))
+                        .unlockedBy(getHasName(ModBlocks.DIORITE_BRICKS), has(ModBlocks.DIORITE_BRICKS))
+                        .save(output);
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIORITE_BRICK_SLAB, ModBlocks.DIORITE_BRICKS);
+
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIORITE_BRICK_WALL, ModBlocks.DIORITE_BRICKS);
+
 
 
 
