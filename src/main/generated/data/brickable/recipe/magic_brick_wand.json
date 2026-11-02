@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": "minecraft:brick",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " B ",
+    "BSB",
+    " B "
+  ],
+  "result": {
+    "id": "brickable:magic_brick_wand"
+  }
+}

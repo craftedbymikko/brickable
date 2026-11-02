@@ -146,6 +146,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIORITE_BRICK_WALL, ModBlocks.DIORITE_BRICKS);
 
+                shaped(RecipeCategory.MISC, ModItems.MAGIC_BRICK_WAND)
+                        .pattern(" B ")
+                        .pattern("BSB")
+                        .pattern(" B ")
+                        .define('B', Items.BRICK)
+                        .define('S', Items.STICK)
+                        .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .save(output);
 
 
 
