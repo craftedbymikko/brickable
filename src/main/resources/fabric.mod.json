@@ -9,7 +9,6 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT-License",
 	"icon": "assets/brickable/icon.png",
