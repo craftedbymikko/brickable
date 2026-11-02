@@ -55,6 +55,7 @@ output.accept(ModBlocks.DIORITE_BRICKS);
 output.accept(ModBlocks.DIORITE_BRICK_STAIRS);
 output.accept(ModBlocks.DIORITE_BRICK_SLAB);
 output.accept(ModBlocks.DIORITE_BRICK_WALL);
+output.accept(ModItems.MAGIC_BRICK_WAND);
 
                 })
                 .build());

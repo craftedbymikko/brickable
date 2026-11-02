@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "brickable:block/smooth_basalt_bricks",
-    "side": "brickable:block/smooth_basalt_bricks",
-    "top": "brickable:block/smooth_basalt_bricks"
-  }
-}

@@ -28,8 +28,10 @@
   "block.brickable.diorite_brick_slab": "Diorite Brick Slab",
   "block.brickable.diorite_brick_wall": "Diorite Brick Wall",
 
-  "item.brickable.the_magic_brick_wand" : "The Magic Brick Wand",
+  "item.brickable.magic_brick_wand" : "The Magic Brick Wand",
   "Creativemodetab.Brickable.Bricks_Tab": "Brickable Bricks",
-  "tooltip.brickable.snow_bricks": "The first textured block added to Brickables"
+  "tooltip.brickable.snow_bricks": "The first textured block added to Brickables",
+  "tooltip.testmod.magic_brick_wand.": "Press §eShift§r for more Information!",
+  "tooltip.testmod.magic_brick_wand.shift_down": "Turns blocks into their brick variants and bricks into their normal variants!"
 
 }

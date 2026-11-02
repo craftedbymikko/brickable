@@ -89,10 +89,10 @@ public class Magic_Brick_Wand extends Item{
     @Override
     public void appendHoverText(ItemStack itemStack, Item.TooltipContext context, TooltipDisplay display, Consumer<Component> builder, TooltipFlag tooltipFlag){
         if (Minecraft.getInstance().hasShiftDown()) {
-            builder.accept(Component.translatable("tooltip.testmod.bedrock_wand.shift_down"));
+            builder.accept(Component.translatable("tooltip.testmod.magic_brick_wand.shift_down"));
 
         } else {
-            builder.accept(Component.translatable("tooltip.testmod.bedrock_wand."));
+            builder.accept(Component.translatable("tooltip.testmod.magic_brick_wand."));
         }
 
 
